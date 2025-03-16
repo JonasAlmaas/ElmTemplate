@@ -5,11 +5,15 @@ IncludeDir = {}
 IncludeDir["elm"] = "%{wks.location}/Elm/Elm/include"
 IncludeDir["elm_src"] = "%{wks.location}/Elm/Elm/src"
 
+IncludeDir["vendor_config"] = "%{wks.location}/Elm/Elm/vendor/_config"
+
 IncludeDir["entt"] = "%{wks.location}/Elm/Elm/vendor/entt/include"
 IncludeDir["glad"] = "%{wks.location}/Elm/Elm/vendor/glad/include"
 IncludeDir["glm"] = "%{wks.location}/Elm/Elm/vendor/glm"
 IncludeDir["glfw"] = "%{wks.location}/Elm/Elm/vendor/glfw/include"
 IncludeDir["imgui"] = "%{wks.location}/Elm/Elm/vendor/imgui"
+IncludeDir["msdf_atlas_gen"] = "%{wks.location}/Elm/Elm/vendor/msdf-atlas-gen/msdf-atlas-gen"
+IncludeDir["msdfgen"] = "%{wks.location}/Elm/Elm/vendor/msdf-atlas-gen/msdfgen"
 IncludeDir["spdlog"] = "%{wks.location}/Elm/Elm/vendor/spdlog/include"
 IncludeDir["stb"] = "%{wks.location}/Elm/Elm/vendor/stb"
 IncludeDir["tinyobjloader"] = "%{wks.location}/Elm/Elm/vendor/tinyobjloader"
